@@ -10,7 +10,7 @@ var PORT = process.env.PORT || 8080;
 
 // //setting up the express app to handle the data parsing
 // app.use(bodyParser.urlendcoded({extended: true}));
-// app.use(badyParser.json());
+// app.use(bodyParser.json());
 // app.use(bodyParser.text());
 // app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
